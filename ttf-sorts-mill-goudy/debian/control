@@ -1,0 +1,17 @@
+Source: ttf-sorts-mill-goudy
+Section: fonts
+Priority: optional
+Maintainer: Edward O'Connor <hober0@gmail.com>
+Uploaders: Edward O'Connor <hober0@gmail.com>
+Build-Depends: debhelper (>= 7.2.3)
+Standards-Version: 3.8.4
+Homepage: http://www.theleagueofmoveabletype.com/fonts/6-sorts-mill-goudy
+Vcs-git: git://github.com/hober/ttf-sorts-mill-goudy.git
+Vcs-Browser: http://github.com/hober/ttf-sorts-mill-goudy
+
+Package: ttf-sorts-mill-goudy
+Architecture: all
+Depends: ${misc:Depends}
+Suggests: x-ttcidfont-conf | fontconfig
+Description: A Goudy revival from the League of Movable Type.
+ It is released under the SIL Open Font License.
